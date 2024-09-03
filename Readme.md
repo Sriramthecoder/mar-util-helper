@@ -33,7 +33,7 @@ Example:
 ```js
 javascript
 
-const { deepClone } = require('tiny-utility-library');
+const { deepClone } = require('mar-util-helper');
 
 const originalObj = { a: 1, b: { c: 2 } };
 const clonedObj = deepClone(originalObj);
@@ -59,7 +59,7 @@ Example:
 ```js
 javascript
 
-const { debounce } = require('tiny-utility-library');
+const { debounce } = require('mar-util-helper');
 
 const logMessage = () => console.log('Debounced!');
 const debouncedLog = debounce(logMessage, 1000);
@@ -86,7 +86,7 @@ Example:
 ```js
 javascript
 
-const { throttle } = require('tiny-utility-library');
+const { throttle } = require('mar-util-helper');
 
 const throttleMessage = () => console.log('Throttled!');
 const throttledLog = throttle(throttleMessage, 2000);
@@ -111,7 +111,7 @@ Example:
 ```js
 javascript
 
-const { getType } = require('tiny-utility-library');
+const { getType } = require('mar-util-helper');
 
 console.log(getType([]));      // Output: 'array'
 console.log(getType({}));      // Output: 'object'
@@ -137,7 +137,7 @@ Example:
 ```js
 javascript
 
-const { formatCurrency } = require('tiny-utility-library');
+const { formatCurrency } = require('mar-util-helper');
 
 console.log(formatCurrency(1234.56)); // Output: '$1,234.56' (in 'en-US' locale)
 console.log(formatCurrency(1234.56, 'EUR', 'de-DE')); // Output: '1.234,56 €' (in 'de-DE' locale)
