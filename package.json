@@ -1,0 +1,26 @@
+{
+  "name": "mar-util-helper",
+  "version": "1.0.0",
+  "description": "A lightweight library of utility functions for everyday tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sriramthecoder/mar-util-helper.git"
+  },
+  "keywords": [
+    "fast",
+    "lightweight",
+    "minimalistic",
+    "utility",
+    "library"
+  ],
+  "author": "Sriram S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sriramthecoder/mar-util-helper/issues"
+  },
+  "homepage": "https://github.com/Sriramthecoder/mar-util-helper#readme"
+}
